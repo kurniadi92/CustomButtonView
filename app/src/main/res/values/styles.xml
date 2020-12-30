@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+    <style name="VidioRedBaseButtonStyle" parent="Widget.MaterialComponents.Button">
         <item name="android:background">@drawable/button_background_by_state</item>
         <item name="backgroundTint">@null</item>
         <item name="android:textColor">@drawable/button_text_color</item>
         <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="VidioRedButtonStyleSmall" parent="VidioRedBaseButtonStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_height">32dp</item>
+    </style>
+    <style name="VidioRedButtonStyleMedium" parent="VidioRedBaseButtonStyle">
         <item name="android:textSize">16sp</item>
-        <item name="android:elevation">4dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    <style name="VidioRedButtonStyleLarge" parent="VidioRedBaseButtonStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+    <style name="VidioRedFixedSmallStyle" parent="VidioRedButtonStyleSmall">
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+    <style name="VidioRedFixedMediumStyle" parent="VidioRedButtonStyleMedium">
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+    <style name="VidioRedFixedLargeStyle" parent="VidioRedButtonStyleLarge">
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
     </style>
 </resources>
