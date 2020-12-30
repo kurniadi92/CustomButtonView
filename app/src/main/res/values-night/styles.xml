@@ -8,25 +8,31 @@
     <style name="VidioRedButtonStyleSmall" parent="VidioRedBaseButtonStyle">
         <item name="android:textSize">12sp</item>
         <item name="android:layout_height">32dp</item>
+        <item name="android:layout_width">match_parent</item>
     </style>
     <style name="VidioRedButtonStyleMedium" parent="VidioRedBaseButtonStyle">
         <item name="android:textSize">16sp</item>
         <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">match_parent</item>
     </style>
     <style name="VidioRedButtonStyleLarge" parent="VidioRedBaseButtonStyle">
         <item name="android:textSize">16sp</item>
         <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
     </style>
     <style name="VidioRedFixedSmallStyle" parent="VidioRedButtonStyleSmall">
         <item name="android:paddingStart">16dp</item>
         <item name="android:paddingEnd">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
     </style>
     <style name="VidioRedFixedMediumStyle" parent="VidioRedButtonStyleMedium">
         <item name="android:paddingStart">16dp</item>
         <item name="android:paddingEnd">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
     </style>
     <style name="VidioRedFixedLargeStyle" parent="VidioRedButtonStyleLarge">
         <item name="android:paddingStart">16dp</item>
         <item name="android:paddingEnd">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
     </style>
 </resources>
