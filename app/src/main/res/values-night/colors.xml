@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_normal">#FC0F3A</color>
+    <color name="button_pressed">#E60E35</color>
+    <color name="button_disabled">#404040</color>
+    <color name="text_label_disabled">#666666</color>
+    <color name="text_label_normal">#FFFFFF</color>
+</resources>

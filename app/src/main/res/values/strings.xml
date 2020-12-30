@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Custom View 2</string>
+    <string name="textview">TextView</string>
+    <string name="halo_halo_bandung">Halo halo bandung</string>
+</resources>
